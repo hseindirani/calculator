@@ -1,6 +1,6 @@
 export default function NormalCalc () {
     
     return(
-        <div></div>
+        <div>normal</div>
     )
 }

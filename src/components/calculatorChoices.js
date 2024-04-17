@@ -15,7 +15,7 @@ export default function CalChoices(){
         <div className="flex items-center flex-col mt-10 w-full  ">
             {
                 choices.map((choice)=>(
-                    <div className="w-1/2 mb-3 cursor-pointer border-2 font-bold rounded-xl text-center p-3 hover:border-black">{choice.title}</div>
+                    <div onClick={()=>{nav(`/${choice.path}`)}} className="w-1/2 mb-3 cursor-pointer border-2 font-bold rounded-xl text-center p-3 hover:border-black">{choice.title}</div>
                 ))
             }
         </div>

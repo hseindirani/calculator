@@ -1,5 +1,5 @@
 export default function BmiCalc () {
     return(
-        <div></div>
+        <div>bmi</div>
     )
 }
