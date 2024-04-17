@@ -1,6 +1,6 @@
 import CalChoices from "../components/calculatorChoices";
 import Header from "../components/header";
-import HomeHeader from "../components/header";
+
 
 export default function Home() {
     return (
